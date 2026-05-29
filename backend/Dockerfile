@@ -1,5 +1,5 @@
 # 1. Start with a lightweight, pre-configured Python environment
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 # 2. Create and move into the folder where our app will live inside the cloud
 WORKDIR /app
